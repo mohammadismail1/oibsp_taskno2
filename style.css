@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+    background-image: url(./maxim-berg-lnvpji4fC3c-unsplash.jpg);
+}
+.head {
+    padding:2rem;
+    margin: 1rem 0px;
+    text-align: center;
+    align-items: center;
+    color: #000000ad;
+}
+.head > .title {
+    margin-bottom: 1rem;
+}
+.tribute {
+    color: #000000ad;
+    font-weight: bolder;
+    display: grid;
+    padding-right: 20px;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 4px 4px 12px #0000002b;
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    background-color: #ffffff14;
+}
+.tribute > blockquote {
+    text-align: center;
+    font-size: 3rem;
+}
+img {
+    width: 400px;
+    height: 100%;
+}
+.bio {
+    margin: 2rem auto;
+    padding: 0px 05rem;
+    max-width: 78rem ;
+    font-size: 25px;
+    line-height: 1.4;
+    border-radius: 40px;
+    box-shadow: 4px 4px 12px #0000002b;
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    color: black   ;
+    background-color: #ffffff14 ;
+}
+.bio > h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.4;
+    color: #000000ad;
+}
+
